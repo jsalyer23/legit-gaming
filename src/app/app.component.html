@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<app-nav-bar></app-nav-bar>
+
+<!-- There's a better way to do this, should clean it up -->
+<ngx-carousel *ngIf="atHome()" [inputs]="carouselOne" (carouselLoad)="refreshData($event)">
+  <button NgxCarouselPrev class='previous-button'>&lt;</button>
+
+  <ngx-item NgxCarouselItem>
+    <div><img src="https://placeimg.com/550/500/any" alt=""></div>
+  </ngx-item>
+  <ngx-item NgxCarouselItem>
+    <div><img src="https://placeimg.com/550/500/any" alt=""></div>
+  </ngx-item>
+  <ngx-item NgxCarouselItem>
+    <div><img src="https://placeimg.com/550/500/any" alt=""></div>
+  </ngx-item>
+  <ngx-item NgxCarouselItem>
+    <div><img src="https://placeimg.com/600/500/any" alt=""></div>
+  </ngx-item>
+  <ngx-item NgxCarouselItem>
+    <div><img src="https://placeimg.com/650/450/any" alt=""></div>
+  </ngx-item>
+  
+  <button NgxCarouselNext class='next-button'>&gt;</button>
+</ngx-carousel>
+
+<div class="fb-page" data-href="https://www.facebook.com/LegitTCG" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/LegitTCG" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LegitTCG">Legit Gaming</a></blockquote></div>
+
+<router-outlet></router-outlet>

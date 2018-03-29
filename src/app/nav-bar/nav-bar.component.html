@@ -1,0 +1,21 @@
+<mat-toolbar class="nav-container">
+
+  <span class="nav-logo">
+    <img routerLink="/" class="logo" alt="Legit Gaming Logo" src="assets\legit-gaming-icon.jpg">
+  </span>
+
+  <span class="nav-links">
+      <!-- If user has admin access, fix this later -->
+    <span class="nav-link" routerLink='/admin' routerLinkActive='active'>Admin</span>
+    <span class="nav-link" routerLink='/store' routerLinkActive='active'>Store</span>
+    <span class="nav-link" routerLink='/about' routerLinkActive='active'>About</span>
+    <span class="nav-link" routerLink='/contact-us' routerLinkActive='active'>Contact Us</span>
+  </span>
+
+  <!-- Login -->
+  <span class="nav-login">
+    <button mat-raised-button routerLink='/login' routerLinkActive='active'>Login</button>
+    <!-- There is probably a better way to handle the login -->
+  </span>
+
+</mat-toolbar>

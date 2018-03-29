@@ -1,0 +1,31 @@
+.nav-container {
+ .nav-logo {
+   .logo {
+     display: flex;
+
+     &:hover {
+       cursor: pointer;
+     }
+   }
+ }
+
+ .nav-links {
+   flex: 1 1 auto;
+   margin-left: 2%;
+
+   .nav-link {
+     color: black;
+     
+     &:hover {
+       cursor: pointer;
+       color: gray;
+     }
+   }
+ }
+
+ .nav-login {
+   .nav-login-btn {
+     //
+   }
+ }
+}

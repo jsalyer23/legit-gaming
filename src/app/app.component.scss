@@ -1,0 +1,34 @@
+  .previous-button {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      height: 50px;
+      left: 0;
+      background-color: transparent;
+      border: none;
+      font-size: 2em;
+  }
+
+  .next-button {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      height: 50px;
+      right: 0;
+      background-color: transparent;
+      border: none;
+      font-size: 2em;
+  }
+
+  ngx-item {
+    div {
+      background-color: #ccc;
+      min-height: 300px;
+      text-align: center;
+      line-height: 300px;
+    }
+  }
